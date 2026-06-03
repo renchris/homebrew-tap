@@ -6,6 +6,11 @@ class WorktreeHarness < Formula
   license "MIT"
   head "https://github.com/renchris/worktree-harness.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/renchris/homebrew-tap/releases/download/worktree-harness-0.2.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "c52bf69662b8b6d5886318b26f4a23eddb20975264b234ccf3b8bf95349b0300"
+  end
+
   livecheck do
     url :stable
     strategy :github_latest
