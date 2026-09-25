@@ -8,8 +8,8 @@
 class NaturalTts < Formula
   desc "Local Kokoro-82M text-to-speech helper for the Natural TTS Chrome extension"
   homepage "https://github.com/renchris/natural-text-to-voice-extension"
-  url "https://github.com/renchris/natural-text-to-voice-extension/archive/refs/tags/v1.5.0.tar.gz"
-  sha256 "9f1087d22dd7dd8ba287cb8eab4f60e2526b90b3ba2bdddf256d3b56c1f969f7"
+  url "https://github.com/renchris/natural-text-to-voice-extension/archive/refs/tags/v1.5.1.tar.gz"
+  sha256 "a9601687ce82cc569b87e13253ad47fceb18a0def572fae2d2aa02b1c3dcddcc"
   license "MIT"
   head "https://github.com/renchris/natural-text-to-voice-extension.git", branch: "main"
 
